@@ -1,10 +1,14 @@
-* * {
+* {
   box-sizing: border-box;
 }
 
 body {
   font-family: 'Montserrat', sans-serif;
   margin: 0%;
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 
 .main-page {
@@ -138,10 +142,9 @@ body {
 }
 
 .fact-item {
-  width: calc((100%3)- (24px * 2) 3);
+  width: calc((100% / 3) - (24px * 2));
 }
 
 .second-wrapper {
-  padding: 0 100px;
-  gap: 107px;
+  padding: 0 100px;
 }
